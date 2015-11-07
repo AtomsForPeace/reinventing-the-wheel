@@ -1,4 +1,4 @@
-test_list = [9, 2, 4, 8, 5, 2, 8, 1, 2, 6, 3]
+unsorted_list = [9, 2, 4, 8, 5, 2, 8, 1, 2, 6, 3]
 
 
 def bubble_sorter(_list):
@@ -16,6 +16,6 @@ def bubble_sorter(_list):
                 not_sorted.append(True)
     return _list
 
-sorted_list = bubble_sorter(test_list)
+sorted_list = bubble_sorter(unsorted_list)
 
 print(sorted_list)
